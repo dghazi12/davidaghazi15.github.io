@@ -40,12 +40,12 @@ $('.contact-button').click(function () {
 
 //When you click on view work, it will take you to the working webpage
 $("#osas-tracks").click(function () {
-    window.open('images/coming-soon-1.png', '_blank');
+    window.open('https://stark-woodland-75959.herokuapp.com', '_blank');
 });
 
 //When you click on view work, it will take you to github where all the code is
 $("#osas-github").click(function () {
-    window.open('https://github.com/leeroyp/OsasTracks.github.io', '_blank');
+    window.open('https://github.com/morenogomes/project_2', '_blank');
 });
 
 //When you click on view work, it will take you to the working webpage
@@ -80,12 +80,22 @@ $("#work-github").click(function () {
 
 //When you click on view work, it will take you to the working webpage
 $("#password-generator").click(function () {
-    window.open('https://dghazi12.github.io/davidaghazi03.github.io/', '_blank');
+    window.open('https://ghazi-burger-logger.herokuapp.com/', '_blank');
 });
 
 //When you click on view work, it will take you to github where all the code is
 $("#password-github").click(function () {
-    window.open('https://github.com/dghazi12/davidaghazi03.github.io', '_blank');
+    window.open('https://github.com/dghazi12/davidaghazi13.github.io', '_blank');
+});
+
+//When you click on view work, it will take you to github where all the code is
+$("#employee-github").click(function () {
+    window.open('https://github.com/dghazi12/davidaghazi12.github.io', '_blank');
+});
+
+//When you click on view work, it will take you to github where all the code is
+$("#readme-github").click(function () {
+    window.open('https://github.com/dghazi12/dghazi12-davidaghazi09.github.io', '_blank');
 });
 
 //When you click arrow up button, it will take you to the welcome section of the webpage

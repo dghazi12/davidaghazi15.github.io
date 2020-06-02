@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -25,15 +26,15 @@
 
 </head>
 
-<body class="theme-dark">
+<section class="theme-dark">
 
     <!-- The first page of the portfolio. Simple welcome page with a button to direct you the the about page -->
     <div class="animation-area">
-        <h1 class="home">
+        <h1 class="home size">
             Hello, I'm David Ghazi
         </h1>
 
-        <h1 class="home title">
+        <h1 class="home title size">
             Full- stack Web Developer
         </h1>
 
@@ -50,6 +51,10 @@
             Work</a>
         <a type="button" class="btn btn-secondary btn-lg btn-outline-primary cv" href="#about">View Resume</a>
     </div>
+
+</section>
+
+<body class="theme-dark">
 
     <!-- Navbar. Easily navigate around the website -->
     <nav class="navbar-dark bg-dark row row-cols-8">
@@ -68,7 +73,7 @@
                 About
             </h1>
 
-            <div class="row">
+            <div class="row hide">
                 <div class="column">
                     <img src="images/passionate-picture.jpeg" class="picture picture1" alt="passionate-picture"
                         height="150" width="150">
@@ -131,24 +136,24 @@
                     </h3>
 
                     <div class="col">
-                        <i class="fab fa-js fa-7x"></i>
-                        <i class="fab fa-html5 fa-7x"></i>
-                        <i class="fab fa-react fa-7x"></i>
+                        <i class="fab icon fa-js fa-7x"></i>
+                        <i class="fab icon fa-html5 fa-7x"></i>
+                        <i class="fab icon fa-react fa-7x"></i>
                     </div>
                     <div class="col">
-                        <i class="fab fa-node-js fa-7x"></i>
-                        <i class="fab fa-css3-alt fa-7x"></i>
-                        <i class="fab fa-bootstrap fa-7x"></i>
+                        <i class="fab icon fa-node-js fa-7x"></i>
+                        <i class="fab icon fa-css3-alt fa-7x"></i>
+                        <i class="fab icon fa-bootstrap fa-7x"></i>
                     </div>
                     <div class="col">
-                        <i class="fab fa-github fa-7x"></i>
-                        <i class="fab fa-java fa-7x"></i>
-                        <i class="fas fa-plus-square fa-7x"></i>
+                        <i class="fab icon fa-github fa-7x"></i>
+                        <i class="fab icon fa-java fa-7x"></i>
+                        <i class="fas icon fa-plus-square fa-7x"></i>
                     </div>
                     <div class="col">
-                        <i class="fas fa-plus-square fa-7x"></i>
-                        <i class="fas fa-plus-square fa-7x"></i>
-                        <i class="fas fa-plus-square fa-7x"></i>
+                        <i class="fas icon1 fa-plus-square fa-7x"></i>
+                        <i class="fas icon fa-plus-square fa-7x"></i>
+                        <i class="fas icon fa-plus-square fa-7x"></i>
                     </div>
 
                 </div>
@@ -177,14 +182,12 @@
                             width="300">
                     </div>
                     <div class="col">
-                        <h3 class="project-text">Osas Tracks</h3>
-                        <p class="description"> Created a webpage that will generate
-                            <br>
-                            a random playlist based off of the
-                            <br>
-                            genre or artist selection. Used Spotify's
-                            <br>
-                            API to gather all necessary information.
+                        <h3 class="project-text">Open Sound</h3>
+                        <p class="description">
+                            Created an alternative Spotify WebPlayer
+                            where the user is capable of adding/playing songs, adding artists 
+                            and albums to their profile. Used Spotify's API to gather all 
+                            necessary information.
                         </p>
                         <a><button class="btn viewwork btn-secondary btn-sm" id="osas-tracks">View Work</button></a>
                         <a><button class="btn viewcode btn-secondary btn-sm" id="osas-github">View Code</button
@@ -203,11 +206,8 @@
                         <h3 class="project-text">Coding Quiz Challenge</h3>
                         <p class="description">
                             Created a quiz that will store all high-
-                            <br>
                             scores upon completion of the quiz. Users
-                            <br>
                             will be penalized 10 seconds for every
-                            <br>
                             wrong answer submited, thus affecting final score.
                         </p>
                         <a><button class="btn viewwork btn-secondary btn-sm" id="code-quiz">View Work</button></a>
@@ -226,11 +226,8 @@
                         <h3 class="project-text">Weather Dashboard</h3>
                         <p class="description">
                             Created a website that will display the
-                            <br>
                             current and 5 day forecast of any city
-                            <br>
                             searched for by the user. Used OpenWeather
-                            <br>
                             API to retrieve weather data for cities.
                         </p>
                         <a><button class="btn viewwork btn-secondary btn-sm" id="weather-dashboard">View Work</button
@@ -250,9 +247,7 @@
                         <h3 class="project-text">Work Day Scheduler</h3>
                         <p class="description">
                             Created a simple calendar application that
-                            <br>
                             allows the user to save events for each hour
-                            <br>
                             of the day.
                         </p>
                         <a><button class="btn viewwork btn-secondary btn-sm" id="work-schedule">View Work</button></a>
@@ -264,23 +259,59 @@
                 <div class="row">
 
                     <div class="col">
-                        <img class="project-picture" src="images/password.jpeg" alt="passionate-picture" height="250"
+                        <img class="project-picture" src="images/Eat-Da-Burger.jpg" alt="passionate-picture" height="250"
                             width="300">
                     </div>
                     <div class="col">
-                        <h3 class="project-text">Password Generator</h3>
+                        <h3 class="project-text">Eat-Da-Burger</h3>
                         <p class="description">
-                            Created an application that generates a
-                            <br>
-                            random password based on user- selected
-                            <br>
-                            criteria. User will input their criteria
-                            <br>
-                            in a series of prompts.
+                            Created an application that allows the user
+                            to search for a specific type of burger. The burger
+                            will be saved to the database and will present the user 
+                            with the option to devour and then delete the burger.
                         </p>
                         <a><button class="btn viewwork btn-secondary btn-sm" id="password-generator">View
                                 Work</button></a>
                         <a><button class="btn viewcode btn-secondary btn-sm" id="password-github">View Code</button></a>
+                    </div>
+
+                </div>
+
+                <div class="row">
+
+                    <div class="col">
+                        <img class="project-picture" src="images/EmployeeTracker.jpg" alt="passionate-picture" height="250"
+                            width="300">
+                    </div>
+                    <div class="col">
+                        <h3 class="project-text">Employee Tracker</h3>
+                        <p class="description">
+                            Created an application that keeps track of all employees 
+                            names, titles, salary and departments. Employers can 
+                            select which criteria they would like to view and a 
+                            list of all employees will appear based on the selected 
+                            criteria.
+                        </p>
+                        <a><button class="btn viewcode btn-secondary btn-sm" id="employee-github">View Code</button></a>
+                    </div>
+
+                </div>
+
+                <div class="row">
+
+                    <div class="col">
+                        <img class="project-picture" src="images/ReadmeGenerator.png" alt="passionate-picture" height="250"
+                            width="300">
+                    </div>
+                    <div class="col">
+                        <h3 class="project-text">README Generator</h3>
+                        <p class="description">
+                            This application is designed to ask a series of 
+                            questions awaiting the response from the user.
+                            Based on the response, a good readme.md file will
+                            be created for your project. 
+                        </p>
+                        <a><button class="btn viewcode btn-secondary btn-sm" id="readme-github">View Code</button></a>
                     </div>
 
                 </div>
